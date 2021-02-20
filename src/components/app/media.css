@@ -1,0 +1,31 @@
+@media (max-width: 576px) {
+    .box {
+        width: 100%;
+        min-height: 270px;
+    }
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .button-list {
+        width: 100%;
+    }
+    .choose-ingredient {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 15px;
+    
+    }
+    .button-list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn {
+        width: 47%;
+        height: 50px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+}

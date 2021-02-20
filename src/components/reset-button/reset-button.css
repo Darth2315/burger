@@ -1,0 +1,14 @@
+.reset-buttons {
+margin-top: 20px;
+}
+.clear-btn {
+    width: 40%;
+    background-color: rgb(214, 210, 210);
+    color: #000000;
+ }
+
+.chief-btn {
+    width: 50%;
+    background-color: #1d1c1b;
+    color: #ffffff;
+}

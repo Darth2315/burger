@@ -1,0 +1,39 @@
+.choose-ingredient {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+
+}
+.button-list {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.btn {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.btn:focus {
+    outline: 0;
+}
+.salad-btn {
+   background-color: green; 
+}
+.bacon-btn {
+    background-color: #bf3813; 
+}
+.cheese-btn {
+    background-color: #f8b930; 
+}
+.meat-btn {
+    background-color: #7f3608; 
+}

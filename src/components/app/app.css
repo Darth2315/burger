@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(220, 224, 220);
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.box {
+    width: 500px;
+    min-height: 450px;
+    margin: auto;
+}
+
+.salad {
+    width: 90%;
+    height: 27px;
+    background: linear-gradient(#228c1d, #91ce50);
+    margin: 2% auto;
+    border-radius: 15px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.salad:hover {
+    transform: scale(1.03);
+}
+
+.meat {
+    width: 82%;
+    height: 30px;
+    border-radius: 15px;
+    background: linear-gradient(#7f3608, #702e05);
+    margin: 2% auto;
+    transition: all .5s;
+    cursor: pointer;
+}
+.meat:hover {
+    transform: scale(1.03);
+}
+
+.bacon {
+    width: 80%;
+    height: 12px;
+    border-radius: 8px;
+    background: linear-gradient(#bf3813, #c45e38);
+    margin: 2% auto;
+    transition: all .5s;
+    cursor: pointer;
+}
+.bacon:hover {
+    transform: scale(1.03);
+}
+
+.cheese {
+    width: 86%;
+    height: 15px;
+    border-radius: 20px;
+    background: linear-gradient(#f8b930, #f3e296);
+    margin: 2% auto;
+    transition: all .5s;
+    cursor: pointer;
+}
+.cheese:hover {
+    transform: scale(1.03);
+}
+
+.dark-mode {
+    color: #ffffff;
+}
+
+.dark-btn-mode {
+    background-color: #e7e7e7;
+    color: #000000;
+}

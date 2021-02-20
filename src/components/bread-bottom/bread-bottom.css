@@ -1,0 +1,14 @@
+.bread-bottom {
+    width: 80%;
+    height: 13%;
+    height: 50px;
+    border-radius: 0 0 50px 50px;
+    background: linear-gradient(#f08e4a, #e27b36);
+    box-shadow: inset -15px 0 #c15711;
+    margin: 2% auto;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.bread-bottom:hover {
+    transform: scale(1.03);
+}
