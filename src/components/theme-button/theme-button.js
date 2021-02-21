@@ -1,14 +1,14 @@
 import React from 'react';
 import './theme-button.css';
 
-const ThemeButton = ({onToggleTheme, darkTheme}) => {
-
-    const clazz = darkTheme ? 'dark-btn-mode' : null;
-    const label = darkTheme ? 'Light' : 'Dark';
+const ThemeButton = ({onToggleTheme}) => {
 
     return (
-        <button className={`darkmode-btn ${clazz}`}
-        onClick={() => onToggleTheme()}>{label} Mode</button>
+        <label className='switch'>
+            <input type='checkbox' 
+            onChange={onToggleTheme}/>
+            <span className='slider round'></span>
+        </label>
     )
 }
 

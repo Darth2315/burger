@@ -51,24 +51,21 @@ export default class App extends Component {
     }
 
     onToggleTheme = () => {
-
-        const {darkTheme} = this.state;
-        // const body = document.querySelector('body');
-        
-        // if (darkTheme) {
-        //     body.style.backgroundColor = '#000000';
-        // } else {
-        //     body.style.backgroundColor = 'rgb(220, 224, 220)';
-        // }
-        
+        const {darkTheme} = this.state;        
         this.setState({
             darkTheme: !darkTheme
         })
     }
 
     render() {
-
         const {ingredients, darkTheme} = this.state;
+
+        const body = document.body;
+        if (darkTheme) {
+            body.classList.add('body-dark');
+        } else {
+            body.classList.remove('body-dark');
+        }
 
         const foodElements = ingredients.map((item, i) => {
             const clazz = item.toLowerCase();
